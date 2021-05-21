@@ -1,0 +1,38 @@
+* {
+    font-family:'KoHo', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 90vw;
+    margin: auto;
+    position: relative;
+}
+
+.inputBlock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -95%);
+}
+.outputBlock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 1.75rem;
+}
+
+#sentenceInput {
+    height: 30px;
+    width: 20vw;
+}
+
+#analyzeButton {
+    margin-left: 1vw;
+    background-color: lightskyblue;
+    font-size: large;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,7 @@
+<div class = "wrapper">
+    <div class = "inputBlock">
+        <input type="text" name="username" #username id = "sentenceInput" />
+        <input type="button" value = "Analyze" (click) = "analyze_sentiment(username.value)" id = "analyzeButton"/>
+    </div>
+    <p class = "outputBlock">Output: <span [style.color] = "color">{{sentiment}}</span></p>
+</div>
